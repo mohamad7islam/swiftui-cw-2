@@ -22,7 +22,7 @@ struct Exercise1: View {
                     .fontWeight(.black)
                 Stepper("how many water bottels you want to drink ? : \(bottelNum)", value : $bottelNum , in : 2...7 )
                     .padding()
-                TextField(" enter your name" , text: $name)
+                TextField(" enter your name" , text: $name).disableAutocorrection(true)
                     .padding()
                 Spacer()
                 Text("Im \(name) and I swear to drink \(bottelNum) bottels of water daily ")
