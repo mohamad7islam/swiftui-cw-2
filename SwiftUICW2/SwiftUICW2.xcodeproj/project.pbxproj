@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1657B2125965BBB00D0E727 /* Hug Me Tight - OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = D1657B2025965BBB00D0E727 /* Hug Me Tight - OTF.otf */; };
+		D1657B2425965C8E00D0E727 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1657B2325965C8E00D0E727 /* BebasNeue-Regular.ttf */; };
 		D2CB65F8258D6A0C0001A246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */; };
 		D2CB65FA258D6A0C0001A246 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */; };
 		D2CB65FC258D6A0C0001A246 /* Ex1-water-bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1657B2025965BBB00D0E727 /* Hug Me Tight - OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hug Me Tight - OTF.otf"; sourceTree = "<group>"; };
+		D1657B2325965C8E00D0E727 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
 		D2CB65F4258D6A0C0001A246 /* SwiftUICW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1657B1F25965BA400D0E727 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D1657B2325965C8E00D0E727 /* BebasNeue-Regular.ttf */,
+				D1657B2025965BBB00D0E727 /* Hug Me Tight - OTF.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D2CB65EB258D6A0C0001A246 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */,
+				D1657B1F25965BA400D0E727 /* Fonts */,
 				D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */,
 				D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */,
 				D2CB660F258D7D430001A246 /* Ex2-currency-exchange.swift */,
@@ -135,7 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1657B2425965C8E00D0E727 /* BebasNeue-Regular.ttf in Resources */,
 				D2CB6604258D6A0F0001A246 /* LaunchScreen.storyboard in Resources */,
+				D1657B2125965BBB00D0E727 /* Hug Me Tight - OTF.otf in Resources */,
 				D2CB6601258D6A0F0001A246 /* Preview Assets.xcassets in Resources */,
 				D2CB65FE258D6A0F0001A246 /* Assets.xcassets in Resources */,
 			);

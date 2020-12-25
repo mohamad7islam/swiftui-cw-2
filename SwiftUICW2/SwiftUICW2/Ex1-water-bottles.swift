@@ -26,7 +26,7 @@ struct Exercise1: View {
                     .padding()
                 Spacer()
                 Text("Im \(name) and I swear to drink \(bottelNum) bottels of water daily ")
-                    .font(.system(size:35))
+                    .font(.custom("BebasNeue-Regular", size:45))
                     .padding()
                 Spacer()        
             }.padding()
