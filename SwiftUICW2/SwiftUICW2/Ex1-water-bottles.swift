@@ -5,8 +5,10 @@
 //  Created by Omar Alibrahim on 12/19/20.
 //  Copyright: Kuwait Codes 2020 code.kw
 import SwiftUI
-
+        
 struct Exercise1: View {
+    @State var name = ""
+    @State var bottelNum = 1
     var body: some View {
         ZStack {
             Image("charter")
@@ -18,10 +20,14 @@ struct Exercise1: View {
                 Text("عهدة الماء 🚰")
                     .font(.largeTitle)
                     .fontWeight(.black)
-                
-//                ADD THE CODE HERE
-                
-                
+                Stepper("how many water bottels you want to drink ? : \(bottelNum)", value : $bottelNum , in : 2...7 )
+                    .padding()
+                TextField(" enter your name" , text: $name)
+                    .padding()
+                Spacer()
+                Text("Im \(name) and I swear to drink \(bottelNum) bottels of water daily ")
+                    .font(.system(size:35))
+                    .padding()
                 Spacer()        
             }.padding()
         }
@@ -31,5 +37,6 @@ struct Exercise1: View {
 struct Exercise1_Previews: PreviewProvider {
     static var previews: some View {
         Exercise1()
+            .previewDevice("iPhone 11")
     }
 }
